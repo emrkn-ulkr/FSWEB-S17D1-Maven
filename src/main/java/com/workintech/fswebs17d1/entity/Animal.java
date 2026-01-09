@@ -19,4 +19,12 @@ public class Animal {
     public void setName(String name) {
         this.name = name;
     }
+
+    public Animal() {
+    }
+
+    public Animal(Integer id, String name) {
+        this.id = id;
+        this.name = name;
+    }
 }
